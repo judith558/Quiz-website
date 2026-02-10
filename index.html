@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div id="start-menu" class="start-menu">
+            <h1 class="text">Quiz Website</h1>
+            <p>Welcome to the Quiz! Test your knowledge.</p>
+            <button id="start-btn" class="btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-container" class="quiz-container" style="display: none;">
+            <h1 class="text">Quiz Website</h1>
+
+            <div class="timer">
+                <span class="time">0:00</span>
+            </div>
+
+            <div id="question" class="quize">
+                <div class="quize-question">
+                    <p class="quize-text"></p>
+                <ul id="choices" class="unstyled"></ul>
+                </div>
+
+                <button id="submit-btn" class="btn">Submit</button>
+                <p id="score" class="text mt4"></p>
+                <button id="play-again" class="btn mt4">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=1"></script>
+</body>
+</html>

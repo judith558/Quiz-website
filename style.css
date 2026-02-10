@@ -178,7 +178,7 @@ body{
 @media (max-width: 768px) {
     .app {
         max-width: none;
-        width: 100%;
+        width: 85%;
         margin: 0;
         padding: 20px;
     }
